@@ -21,6 +21,12 @@ $ npm install firebase
 
 ## google-home-notifier
 
+Install `libavahi-compat-libdnssd-dev`.
+
+```
+$ sudo apt install libavahi-compat-libdnssd-dev
+```
+
 Install `google-home-notifier`.
 
 ```
@@ -42,7 +48,7 @@ $ npm install google-tts-api
 ```
 
 Modify `google-home-notifier.js` not to use mDNS.
-You don't have to install `libnss-mdns` and `libavahi-compat-libdnssd-dev` packages.
+You don't have to install `libnss-mdns`.
 
 ```
 $ vi node_modules/google-home-notifier/google-home-notifier.js
